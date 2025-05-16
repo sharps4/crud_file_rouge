@@ -1,1 +1,0 @@
-# crud_file_rouge
