@@ -1,0 +1,106 @@
+[
+    {
+        "name"       : "init",
+        "method"     : "GET",
+        "uri"        : "/init",
+        "controller" : "Init",
+        "action"     : "index",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "loginPage",
+        "method"     : "GET",
+        "uri"        : "/connexion",
+        "controller" : "Login",
+        "action"     : "index",
+        "needLogin"  : false
+    },
+    {
+        "name"       : "login",
+        "method"     : "POST",
+        "uri"        : "/login",
+        "controller" : "Login",
+        "action"     : "login",
+        "needLogin"  : false
+    },
+    {
+        "name"       : "logout",
+        "method"     : "GET",
+        "uri"        : "/logout",
+        "controller" : "Login",
+        "action"     : "logout",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "home",
+        "method"     : "GET",
+        "uri"        : "/",
+        "controller" : "Home",
+        "action"     : "index",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "mapBase",
+        "method"     : "GET",
+        "uri"        : "/carte",
+        "controller" : "Map",
+        "action"     : "index",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "map",
+        "method"     : "GET",
+        "uri"        : "/carte/$name",
+        "controller" : "Map",
+        "action"     : "index",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "getMaps",
+        "method"     : "POST",
+        "uri"        : "/getMaps",
+        "controller" : "Map",
+        "action"     : "getAll",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "createMap",
+        "method"     : "POST",
+        "uri"        : "/createMap",
+        "controller" : "Map",
+        "action"     : "create",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "deleteMap",
+        "method"     : "POST",
+        "uri"        : "/deleteMap",
+        "controller" : "Map",
+        "action"     : "delete",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "getStands",
+        "method"     : "POST",
+        "uri"        : "/getStands",
+        "controller" : "Stand",
+        "action"     : "getAll",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "createStand",
+        "method"     : "POST",
+        "uri"        : "/createStand",
+        "controller" : "Stand",
+        "action"     : "create",
+        "needLogin"  : true
+    },
+    {
+        "name"       : "deleteStand",
+        "method"     : "POST",
+        "uri"        : "/deleteStand",
+        "controller" : "Stand",
+        "action"     : "delete",
+        "needLogin"  : true
+    }
+]

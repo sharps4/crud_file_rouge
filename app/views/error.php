@@ -1,0 +1,1 @@
+<h1>Erreur <?= $params['code'] ?></h1>
